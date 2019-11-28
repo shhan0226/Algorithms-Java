@@ -1,0 +1,11 @@
+package fibonachi;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Fibonachi f = new Fibonachi();
+		f.calculate(5);
+	}
+
+}

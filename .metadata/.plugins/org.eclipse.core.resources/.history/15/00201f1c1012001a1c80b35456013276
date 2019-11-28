@@ -1,0 +1,17 @@
+package fibonachi;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Fibonachi f = new Fibonachi();
+		int result[] = f.calculate(10);
+		for (int index = 0; index < 10; index++) {
+
+			System.out.println(result[index]);
+
+		}
+
+	}
+
+}

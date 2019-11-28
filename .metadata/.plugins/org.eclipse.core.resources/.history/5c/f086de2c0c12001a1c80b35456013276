@@ -1,0 +1,32 @@
+package input;
+
+public class Record {
+
+	private  String  name; 
+	private  int     num; 
+	private  String  part; 
+	private  String  tel; 
+	
+	public Record(String na, int n, String p, String t) { 
+		name  = na; 
+		num   = n; 
+		part  = p; 
+		tel   = t; 
+	} 
+	
+	public String getName() { 
+		return(name); 
+	} 
+	
+	public int getNum() { 
+		return(num); 
+	} 
+	
+	public String getPart() { 
+		return(part); 
+	} 
+	
+	public String getTel() { 
+		return(tel); 
+	} 
+}
