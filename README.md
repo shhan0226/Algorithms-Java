@@ -1,7 +1,7 @@
 # Java
 
 ## Introduction
-Java를 이용한 다양한 기능 및 알고리즘 구현
+Java를 이용한 다양한 기능 및 알고리즘 예제 
 
 <br>
 
