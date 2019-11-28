@@ -5,7 +5,9 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
 
 <br>
 
-## Algorithms
+## Contents
+
+### Algorithms
 * 삽입정렬
   * 간단한 삽입정렬 알고리즘 예제 소스
   
@@ -13,8 +15,6 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
   * 피보나치 수열 예제 소스
 
 <br>
-
-## Contents
 
 ### Basic
 * calendar
@@ -49,7 +49,7 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
 
 <br>
 
-## GoogleMap
+### GoogleMap
 * Google Map 적용 예제 소스
 
 <br>
