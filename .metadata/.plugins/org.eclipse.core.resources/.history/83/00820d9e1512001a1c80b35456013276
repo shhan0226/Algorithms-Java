@@ -1,0 +1,62 @@
+package consol;
+
+import java.io.*;
+import java.util.*;
+
+public class ConfigurationReader {
+    String file;
+    char comment;
+    Hashtable ht;
+    String  delm;
+
+    public ConfigurationReader(String file) {
+        this(file, '#', " \t");
+    }
+
+    public ConfigurationReader(String file, char comment) {
+        this(file, comment, " \t");
+    }
+
+    public ConfigurationReader(String file,
+                               char comment, String delm) {
+        this.file = file;
+        this.comment  = comment;
+        this.delm = delm;
+        ht = new Hashtable();
+    }
+
+    public void parse() throws IOException {
+        String rl;
+        BufferedReader br =
+            new BufferedReader(new FileReader(file) );
+
+        while((rl=br.readLine()) != null) {
+            rl = rl.trim();
+            if(rl.charAt(0) == comment )    {
+                continue;
+            } else {
+                StringTokenizer st =
+                    new StringTokenizer(rl,delm,false);
+                String key = st.nextToken();
+                String value = st.nextToken();
+                ht.put(key, value);
+            }
+        }
+        br.close();
+    }
+
+    public String getValue(String name) {
+        return (String)ht.get(name);
+    }
+
+    public static void main(String args[]) {
+        ConfigurationReader cr =
+        new ConfigurationReader("server.conf");
+        try {
+            cr.parse();
+            System.out.println(cr.getValue("port"));
+            System.out.println(cr.getValue("server"));
+            System.out.println(cr.getValue("admin"));
+        } catch (Exception e) { }
+    }
+}
