@@ -5,6 +5,15 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
 
 <br>
 
+## Algorithms
+* 삽입정렬
+  * 간단한 삽입정렬 알고리즘 예제 소스
+  
+* 피보나치
+  * 피보나치 수열 예제 소스
+
+<br>
+
 ## Contents
 
 ### Basic
@@ -45,12 +54,7 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
 
 <br>
 
-## Algorithms
-* 삽입정렬
-  * 간단한 삽입정렬 알고리즘 예제 소스
-  
-* 피보나치
-  * 피보나치 수열 예제 소스
+
   
 ## References
 * [동민나의 유튜브 - GoogleMap](https://www.youtube.com/watch?v=dLFXs9hRZKQ&t=4s)
