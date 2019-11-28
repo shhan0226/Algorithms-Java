@@ -24,11 +24,11 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
 * instanceof
   * 클래스 형변환 소스
   
-* read
+* readWrite
   * 파일 입출력 소스
   
-* replace
-  * 입력값 대체 소스
+* dataModify
+  * 데이터 replace/spliter 소스
   
 * scan
   * scanner를 이용한 데이터 입력 소스
