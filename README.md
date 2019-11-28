@@ -14,8 +14,6 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
 * 피보나치
   * 피보나치 수열 예제 소스
 
-<br>
-
 ### Basic
 * calendar
   * 날짜 데이터를 이용하는 소스
@@ -44,10 +42,7 @@ Java를 이용한 다양한 기능 및 알고리즘 예제
   
 * serialized
   * serialized 데이터 소스
-  
 
-
-<br>
 
 ### GoogleMap
 * Google Map 적용 예제 소스
