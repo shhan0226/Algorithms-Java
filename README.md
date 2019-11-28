@@ -18,3 +18,7 @@ Java를 이용한 다양한 기능 및 알고리즘 구현
 
 ## GoogleMap
 * Google Map 적용 예제 소스
+
+## Algorithms
+* 삽입정렬
+  * 간단한 삽입정렬 알고리즘 예제 소스
